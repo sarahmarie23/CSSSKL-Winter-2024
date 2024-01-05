@@ -132,7 +132,7 @@ System.out.println("Prepare for an epic voyage across the cosmos!")
 
 > 📝 A Method is a block of code that performs a specific task or function.
 
-* ✅ Create a method that prints out the itinerary for a 
+* ✅ Create a method that prints out information for setting the next destination in the space journey 
 
 ### Possible solution
 
