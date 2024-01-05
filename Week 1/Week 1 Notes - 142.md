@@ -7,7 +7,7 @@ CSSSKL 142 - 1/5/24
     3. Fixing Syntax Errors
     4. Simple Methods
 
-## ☕ BlueJ Installation and File Organization
+## 🚀 BlueJ Installation and File Organization
 
 * Download link can be found [here](https://www.bluej.org/) bluej.org. Use the recommended settings.
 ### Staying organized
@@ -46,9 +46,9 @@ public class YourClassName {
     > ✨ This might be helpful for keeping track of your code's structure, especially when starting out
 * Check 'Display line numbers'
 * In the terminal window, check 'Clear screen at method call' in the Options tab, so the output erases each time you run your code
-* To fix formatting: ctrl-
+* To fix formatting: **ctrl-shift-I**
 
-## 🖨️ Print Statements
+## 🌎 Print Statements
 
 * ✅ Create a "Hello World!" print statement on your laptop.
 
@@ -59,14 +59,14 @@ public class YourClassName {
 ### Input
 ```java
 System.out.println("Hello World!");
-System.out.print("One Pumpkin Spice Latte, please ");
-System.out.print("with whipped cream");
+System.out.print("Today's Mission:  ");
+System.out.print("To boldly go where no one has gone before");
 ```
 
 ### Output
 ```
 Hello World!
-One Pumpkin Spice Latte, please with whipped cream
+Today's Mission: To boldly go where no one has gone before
 ```
 
 ## 🛠️ Fixing Syntax Errors ##
@@ -100,43 +100,48 @@ One Pumpkin Spice Latte, please with whipped cream
 
 ```java
 // Welcome message
-System.out.println("Welcome to the Coffee Shop");
+System.out.println("Welcome to the Galactic Adventure Hub");
 
-// Coffee order details
-String coffeeType = "Espresso";
-int sugarSpoons = 2;
-int creamSpoons = 1;
-int cupsOrdered = 3;
+// Spacecraft details
+String spacecraftModel = "Stellar Voyager";
+int crewMembers = 6;
+int cargoCapacity = 5000;
+double currentFuelLevel = 3200.50;
 
-// Display coffee recipe
-System.out.println("Your " + coffeeType + " is ready!');
-System.out.println("Sugar: " + sugarSpoons + " spoons");
-System.out.println("Cream: " + creamSpoons + " spoons");
+// Display spacecraft information
+System.out.println("Spacecraft Model: " + spacecraftModel);
+System.out.println("Crew Members: ' + crewMembers);
+System.out.println("Cargo Capacity: " + cargoCapacity + " pounds");
 
-// Calculate the total price of the coffee
-double pricePerCup = 2.5;
-double totalPrice = cups * pricePerCup;  
+// Print current fuel level 
+System.out.println("Current Fuel Level: " + currentFuelLevel); 
 
-// Display the total price
-System.out.println("Total Price: $" + (totlPrice);
+// Calculate the maximum possible travel distance
+double feulEfficiency = 0.3;
+double maximumDistance = currentFuelLevel * fuelEfficiency; 
 
-## Closing message
-System.out.println("Enjoy your coffee!")
+// Display the maximum travel distance
+System.out.println("Maximum Travel Distance: " + maximumDistance  " light-years");
+
+// Closing message
+System.out.println("Prepare for an epic voyage across the cosmos!")
+
 ```
 
 ## 🧩 Simple Methods
 
 > 📝 A Method is a block of code that performs a specific task or function.
 
-* ✅ Design a method that prints to the screen a message saying a customer's name and their coffee order, so they can come pick it up. Declare variables for the customer's name and their order.
+* ✅ Create a method that prints out the itinerary for a 
 
 ### Possible solution
 
 ```java
-public static void orderMessage() {
-    String customerName = "Sarah";
-    String coffeeType = "caramel macchiatto";
-    int shots = 5;
-    System.out.println(customerName + ", your " + shot + " shot " + coffeeType + " is ready! " + customerName + "!!");
+public static void setJourney() {
+    String currentLocation = "Earth";
+    String  destination = "Mars";
+    String name = "Sarah";
+    int lightYears = 5;
+    System.out.println("This is Captain " + name + ", prepare to leave  " + currentLocation + " and make way to  " + destination + "! ETA: " + lightYears + " light years!!");
 }
 ```
