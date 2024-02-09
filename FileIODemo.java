@@ -29,7 +29,7 @@ public class FileIODemo {
         
         // Get the file name from the user
         System.out.print("Save file as:");
-        fileName = input.next();
+        fileName = input.nextLine();
         
         // Prompt the user to type their message
         System.out.println("Start typing your message:");
