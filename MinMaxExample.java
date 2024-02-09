@@ -6,8 +6,8 @@
  */
 public class MinMaxExample {
     public static void main(String[] args) {
-        double min = Double.MAX_VALUE; // initialize to Double.MAX_VALEUE;
-        double max = Double.MIN_VALUE; // initialize to Double.MIN_VALIUE;
+        double min = 0.0; // initialize to Double.MAX_VALEUE;
+        double max = 0.0; // initialize to Double.MIN_VALIUE;
         double[] temps = {10.0, 15.0, 20.0, 18.0, 12.0};
         
         for (double temp : temps) {
