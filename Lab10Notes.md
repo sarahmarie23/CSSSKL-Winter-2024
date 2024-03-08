@@ -125,8 +125,8 @@ CSSSKL 143 - 03/8/24
 
 ## Bonus: Easy Tree Leetcode Problems
 
-* 94. Binary Tree Inorder Traversal
-* 144. Binary Tree Preorder Traversal
-* 145. Binary Tree Postorder Traversal
-* 2236. Root Equals Sum of Children
-* 112. Path Sum
+94. Binary Tree Inorder Traversal
+144. Binary Tree Preorder Traversal
+145. Binary Tree Postorder Traversal
+2236. Root Equals Sum of Children
+112. Path Sum
